@@ -17,7 +17,7 @@ A web-based interface for real-time voice conversations with AI. Simply speak yo
 
 - > Python 3.8 
 - [FFmpeg](https://ffmpeg.org/download.html)
-- [Ollama](https://ollama.ai) (로컬 AI 모델 서버)
+- [Ollama](https://ollama.ai)
 
 ### Installation
 
@@ -79,12 +79,12 @@ python src/web_server.py
 ## Technology Stack 🛠️
 
 - **Backend**
-  - Flask (웹 서버)
-  - SpeechRecognition (음성 인식)
-  - gTTS (텍스트-음성 변환)
-  - pydub (오디오 처리)
-  - Ollama (로컬 AI 모델)
-
+  - Flask (Web Server)
+  - SpeechRecognition
+  - gTTS (TTS)
+  - pydub
+  - Ollama
+  
 - **Frontend**
   - HTML5
   - CSS3
